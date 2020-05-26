@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import MovieList from '../components/movielist/movielist';
 import Finder from '../components/finder/finder';
 
-const Home = (props) => {
+const Home = () => {
     let [search, searchSet] = useState([]);
   const handleSearch = (movieList) => {
     searchSet(movieList);

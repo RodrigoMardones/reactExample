@@ -31,9 +31,8 @@ const Finder = (props) => {
                 <Col md={{ size: 4, offset: 4  }} >
                     <Form onSubmit={handleClick}>
                         <FormGroup>
-                            <Label for=''>Pelicula</Label>
+                            <Label for='finderMovie'>Pelicula</Label>
                             <Input type='text' name='finderMovie' id='finderMovie' placeholder='Ej: wall-e' onChange={handleInput} ></Input>
-
                         </FormGroup>
                         <Button color='success' type='submit' >Buscar</Button>
                     </Form>
